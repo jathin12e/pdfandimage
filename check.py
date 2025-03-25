@@ -131,6 +131,4 @@ with gr.Blocks() as demo:
 
 # Run the Gradio app with Ngrok for public URL
 if __name__ == "__main__":
-    public_url = ngrok.connect(7860)  # Expose port 7860
-    print(f"Public URL: {public_url}")
-    demo.launch(server_port=7860)
+     demo.launch()
